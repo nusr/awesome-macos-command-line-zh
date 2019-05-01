@@ -1,19 +1,22 @@
-<img src="https://cdn.rawgit.com/herrbischoff/awesome-osx-command-line/master/assets/logo.svg" width="600">
-
 # 自启动服务
 
 > 各种有用的自启动服务例子。 [Awesome OS X Command Line](https://github.com/nusr/awesome-macos-command-line-zh) 的一部分
 
-## 目录
-
-- [基本例子](#基本例子)
-- [Homebrew](#homebrew)
+- [自启动服务](#%E8%87%AA%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1)
+  - [基本例子](#%E5%9F%BA%E6%9C%AC%E4%BE%8B%E5%AD%90)
+    - [定时工作模板](#%E5%AE%9A%E6%97%B6%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF)
+    - [按照日历定期工作模板](#%E6%8C%89%E7%85%A7%E6%97%A5%E5%8E%86%E5%AE%9A%E6%9C%9F%E5%B7%A5%E4%BD%9C%E6%A8%A1%E6%9D%BF)
+    - [监控文件夹模板](#%E7%9B%91%E6%8E%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E6%A8%A1%E6%9D%BF)
+  - [Homebrew](#homebrew)
+    - [定时更新 Homebrew](#%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0-homebrew)
+  - [License](#license)
 
 ## 基本例子
 
 ### 定时工作模板
 
 每5分钟运行一次。
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -32,7 +35,8 @@
 </plist>
 ```
 
-### 定期工作模板
+### 按照日历定期工作模板
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -59,6 +63,7 @@
 ```
 
 ### 监控文件夹模板
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -81,7 +86,6 @@
 </dict>
 </plist>
 ```
-
 
 ## Homebrew
 
@@ -119,7 +123,6 @@
 </dict>
 </plist>
 ```
-
 
 ## License
 

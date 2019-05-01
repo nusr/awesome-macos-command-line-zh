@@ -1,13 +1,9 @@
-<img src="https://cdn.rawgit.com/herrbischoff/awesome-osx-command-line/master/assets/logo.svg" width="600">
 
 # 函数
 
 > OS X 特定 Bash 风格的好用函数集合。[Awesome OS X Command Line](https://github.com/nusr/awesome-macos-command-line-zh) 的一部分。
 
-## 目录
-
 - [函数](#%E5%87%BD%E6%95%B0)
-  - [目录](#%E7%9B%AE%E5%BD%95)
   - [开发者](#%E5%BC%80%E5%8F%91%E8%80%85)
     - [应用图标](#%E5%BA%94%E7%94%A8%E5%9B%BE%E6%A0%87)
       - [创建应用图标](#%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8%E5%9B%BE%E6%A0%87)
@@ -20,7 +16,6 @@
     - [将当前访达文件目录设置为图标视图](#%E5%B0%86%E5%BD%93%E5%89%8D%E8%AE%BF%E8%BE%BE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%9B%BE%E6%A0%87%E8%A7%86%E5%9B%BE)
     - [将当前访达文件目录设置为列表视图](#%E5%B0%86%E5%BD%93%E5%89%8D%E8%AE%BF%E8%BE%BE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%88%97%E8%A1%A8%E8%A7%86%E5%9B%BE)
   - [License](#license)
-
 
 ## 开发者
 
