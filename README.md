@@ -2,15 +2,17 @@
 
 [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
 
-翻译本教程，让我这个 Mac 小白大开眼界。
+翻译本教程，见识了许多没用过的终端命令，加深了对 Mac 的认识。
 
 [在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
 
-这个页面内容有点多，版本信息单独建了一个文件，方便对照。[版本信息](glossary.md)
+[Mac OS 版本一览表](glossary.md)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
 > _“You don’t have to know everything. You simply need to know where to find it when necessary.” (John Brunner)_
+> 
+> _“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)_
 
 更多好用的终端工具，请参阅原作者的姐妹项目 [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)。
 
@@ -471,6 +473,8 @@ sudo chmod 0000 /Applications/iTunes.app
 ### 邮件
 
 #### 将附件显示为图标
+
+Mac 10.14.4 测试，纯文本或其他文件会显示为图标，但是图片会直接插入。图片可以右键转换为图标，或者更换邮箱客户端解决。[issue 1](https://github.com/nusr/awesome-macos-command-line-zh/issues/1)
 
 ```bash
 defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
