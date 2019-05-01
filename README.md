@@ -1,10 +1,12 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Build Status](https://travis-ci.org/nusr/awesome-macos-command-line-zh.svg?branch=master)](https://travis-ci.org/nusr/awesome-macos-command-line-zh)
 
 [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
 
 翻译本教程，让我这个 Mac 小白大开眼界。
 
 [在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
+
+这个页面内容有点多，版本信息单独建了一个文件，方便对照。[版本信息](glossary.md)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
@@ -68,30 +70,30 @@
     - [安装没有命令行工具的 Xcode](#%E5%AE%89%E8%A3%85%E6%B2%A1%E6%9C%89%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%9A%84-xcode)
     - [删除所有不可用的模拟器](#%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E4%B8%8D%E5%8F%AF%E7%94%A8%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%99%A8)
 - [程序坞](#%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-    - [将最近使用的程序添加到程序坞](#%E5%B0%86%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-    - [添加间隔符的无名文件夹](#%E6%B7%BB%E5%8A%A0%E9%97%B4%E9%9A%94%E7%AC%A6%E7%9A%84%E6%97%A0%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [添加空格](#%E6%B7%BB%E5%8A%A0%E7%A9%BA%E6%A0%BC)
-    - [添加小空格](#%E6%B7%BB%E5%8A%A0%E5%B0%8F%E7%A9%BA%E6%A0%BC)
-    - [根据用户最近的使用自动重排](#%E6%A0%B9%E6%8D%AE%E7%94%A8%E6%88%B7%E6%9C%80%E8%BF%91%E7%9A%84%E4%BD%BF%E7%94%A8%E8%87%AA%E5%8A%A8%E9%87%8D%E6%8E%92)
-    - [图标弹跳](#%E5%9B%BE%E6%A0%87%E5%BC%B9%E8%B7%B3)
-    - [锁住程序坞大小](#%E9%94%81%E4%BD%8F%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
-    - [重置程序坞](#%E9%87%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-    - [改变程序坞大小](#%E6%94%B9%E5%8F%98%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
-    - [滚动手势](#%E6%BB%9A%E5%8A%A8%E6%89%8B%E5%8A%BF)
-    - [启用自动掩藏](#%E5%90%AF%E7%94%A8%E8%87%AA%E5%8A%A8%E6%8E%A9%E8%97%8F)
-    - [设置自动显示和掩藏的延迟时间](#%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E6%98%BE%E7%A4%BA%E5%92%8C%E6%8E%A9%E8%97%8F%E7%9A%84%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4)
-    - [显示掩藏 APP 的图标](#%E6%98%BE%E7%A4%BA%E6%8E%A9%E8%97%8F-app-%E7%9A%84%E5%9B%BE%E6%A0%87)
-    - [仅显示启动的应用程序图标](#%E4%BB%85%E6%98%BE%E7%A4%BA%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87)
+  - [将最近使用的程序添加到程序坞](#%E5%B0%86%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%9D%9E)
+  - [添加间隔符的无名文件夹](#%E6%B7%BB%E5%8A%A0%E9%97%B4%E9%9A%94%E7%AC%A6%E7%9A%84%E6%97%A0%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9)
+  - [添加空格](#%E6%B7%BB%E5%8A%A0%E7%A9%BA%E6%A0%BC)
+  - [添加小空格](#%E6%B7%BB%E5%8A%A0%E5%B0%8F%E7%A9%BA%E6%A0%BC)
+  - [根据用户最近的使用自动重排](#%E6%A0%B9%E6%8D%AE%E7%94%A8%E6%88%B7%E6%9C%80%E8%BF%91%E7%9A%84%E4%BD%BF%E7%94%A8%E8%87%AA%E5%8A%A8%E9%87%8D%E6%8E%92)
+  - [图标弹跳](#%E5%9B%BE%E6%A0%87%E5%BC%B9%E8%B7%B3)
+  - [锁住程序坞大小](#%E9%94%81%E4%BD%8F%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
+  - [重置程序坞](#%E9%87%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F%E5%9D%9E)
+  - [改变程序坞大小](#%E6%94%B9%E5%8F%98%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
+  - [滚动手势](#%E6%BB%9A%E5%8A%A8%E6%89%8B%E5%8A%BF)
+  - [启用自动掩藏](#%E5%90%AF%E7%94%A8%E8%87%AA%E5%8A%A8%E6%8E%A9%E8%97%8F)
+  - [设置自动显示和掩藏的延迟时间](#%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E6%98%BE%E7%A4%BA%E5%92%8C%E6%8E%A9%E8%97%8F%E7%9A%84%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4)
+  - [显示掩藏 APP 的图标](#%E6%98%BE%E7%A4%BA%E6%8E%A9%E8%97%8F-app-%E7%9A%84%E5%9B%BE%E6%A0%87)
+  - [仅显示启动的应用程序图标](#%E4%BB%85%E6%98%BE%E7%A4%BA%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87)
 - [文档](#%E6%96%87%E6%A1%A3)
-    - [将文件转换为 HTML](#%E5%B0%86%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-html)
+  - [将文件转换为 HTML](#%E5%B0%86%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-html)
 - [文件、磁盘和卷](#%E6%96%87%E4%BB%B6%E7%A3%81%E7%9B%98%E5%92%8C%E5%8D%B7)
-    - [创建一个空文件](#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A9%BA%E6%96%87%E4%BB%B6)
-    - [禁止突发动作感应](#%E7%A6%81%E6%AD%A2%E7%AA%81%E5%8F%91%E5%8A%A8%E4%BD%9C%E6%84%9F%E5%BA%94)
-    - [弹出所有可安装的卷](#%E5%BC%B9%E5%87%BA%E6%89%80%E6%9C%89%E5%8F%AF%E5%AE%89%E8%A3%85%E7%9A%84%E5%8D%B7)
-    - [修复文件权限](#%E4%BF%AE%E5%A4%8D%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90)
-    - [设置启动卷](#%E8%AE%BE%E7%BD%AE%E5%90%AF%E5%8A%A8%E5%8D%B7)
-    - [示所有附加的磁盘和分区](#%E7%A4%BA%E6%89%80%E6%9C%89%E9%99%84%E5%8A%A0%E7%9A%84%E7%A3%81%E7%9B%98%E5%92%8C%E5%88%86%E5%8C%BA)
-    - [查看文件系统的使用率](#%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%BF%E7%94%A8%E7%8E%87)
+  - [创建一个空文件](#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A9%BA%E6%96%87%E4%BB%B6)
+  - [禁止突发动作感应](#%E7%A6%81%E6%AD%A2%E7%AA%81%E5%8F%91%E5%8A%A8%E4%BD%9C%E6%84%9F%E5%BA%94)
+  - [弹出所有可安装的卷](#%E5%BC%B9%E5%87%BA%E6%89%80%E6%9C%89%E5%8F%AF%E5%AE%89%E8%A3%85%E7%9A%84%E5%8D%B7)
+  - [修复文件权限](#%E4%BF%AE%E5%A4%8D%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90)
+  - [设置启动卷](#%E8%AE%BE%E7%BD%AE%E5%90%AF%E5%8A%A8%E5%8D%B7)
+  - [示所有附加的磁盘和分区](#%E7%A4%BA%E6%89%80%E6%9C%89%E9%99%84%E5%8A%A0%E7%9A%84%E7%A3%81%E7%9B%98%E5%92%8C%E5%88%86%E5%8C%BA)
+  - [查看文件系统的使用率](#%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%BF%E7%94%A8%E7%8E%87)
   - [APFS](#apfs)
     - [将卷从 HFS+ 转换为 APFS](#%E5%B0%86%E5%8D%B7%E4%BB%8E-hfs-%E8%BD%AC%E6%8D%A2%E4%B8%BA-apfs)
     - [创建新的 APFS 文件系统](#%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84-apfs-%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
@@ -146,8 +148,8 @@
     - [打开文件夹](#%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9)
     - [打开当前文件夹](#%E6%89%93%E5%BC%80%E5%BD%93%E5%89%8D%E6%96%87%E4%BB%B6%E5%A4%B9)
 - [字体](#%E5%AD%97%E4%BD%93)
-    - [清空当前用户字体缓存](#%E6%B8%85%E7%A9%BA%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E5%AD%97%E4%BD%93%E7%BC%93%E5%AD%98)
-    - [获取 SF Mono 字体](#%E8%8E%B7%E5%8F%96-sf-mono-%E5%AD%97%E4%BD%93)
+  - [清空当前用户字体缓存](#%E6%B8%85%E7%A9%BA%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E5%AD%97%E4%BD%93%E7%BC%93%E5%AD%98)
+  - [获取 SF Mono 字体](#%E8%8E%B7%E5%8F%96-sf-mono-%E5%AD%97%E4%BD%93)
 - [函数](#%E5%87%BD%E6%95%B0)
 - [硬件](#%E7%A1%AC%E4%BB%B6)
   - [蓝牙](#%E8%93%9D%E7%89%99)
@@ -178,7 +180,7 @@
     - [按键重复](#%E6%8C%89%E9%94%AE%E9%87%8D%E5%A4%8D)
     - [按键重复频率](#%E6%8C%89%E9%94%AE%E9%87%8D%E5%A4%8D%E9%A2%91%E7%8E%87)
 - [启动台](#%E5%90%AF%E5%8A%A8%E5%8F%B0)
-    - [重设启动台布局](#%E9%87%8D%E8%AE%BE%E5%90%AF%E5%8A%A8%E5%8F%B0%E5%B8%83%E5%B1%80)
+  - [重设启动台布局](#%E9%87%8D%E8%AE%BE%E5%90%AF%E5%8A%A8%E5%8F%B0%E5%B8%83%E5%B1%80)
 - [媒体](#%E5%AA%92%E4%BD%93)
   - [音频](#%E9%9F%B3%E9%A2%91)
     - [将音频文件转换为 iPhone 铃声。](#%E5%B0%86%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-iphone-%E9%93%83%E5%A3%B0)
@@ -224,9 +226,9 @@
     - [开启 Wi-Fi 适配器](#%E5%BC%80%E5%90%AF-wi-fi-%E9%80%82%E9%85%8D%E5%99%A8)
 - [包管理器](#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8)
 - [打印](#%E6%89%93%E5%8D%B0)
-    - [清除打印队列](#%E6%B8%85%E9%99%A4%E6%89%93%E5%8D%B0%E9%98%9F%E5%88%97)
-    - [默认展开打印面板](#%E9%BB%98%E8%AE%A4%E5%B1%95%E5%BC%80%E6%89%93%E5%8D%B0%E9%9D%A2%E6%9D%BF)
-    - [打印完成后停止打印机](#%E6%89%93%E5%8D%B0%E5%AE%8C%E6%88%90%E5%90%8E%E5%81%9C%E6%AD%A2%E6%89%93%E5%8D%B0%E6%9C%BA)
+  - [清除打印队列](#%E6%B8%85%E9%99%A4%E6%89%93%E5%8D%B0%E9%98%9F%E5%88%97)
+  - [默认展开打印面板](#%E9%BB%98%E8%AE%A4%E5%B1%95%E5%BC%80%E6%89%93%E5%8D%B0%E9%9D%A2%E6%9D%BF)
+  - [打印完成后停止打印机](#%E6%89%93%E5%8D%B0%E5%AE%8C%E6%88%90%E5%90%8E%E5%81%9C%E6%AD%A2%E6%89%93%E5%8D%B0%E6%9C%BA)
 - [安全](#%E5%AE%89%E5%85%A8)
   - [应用防火墙](#%E5%BA%94%E7%94%A8%E9%98%B2%E7%81%AB%E5%A2%99)
     - [防火墙服务](#%E9%98%B2%E7%81%AB%E5%A2%99%E6%9C%8D%E5%8A%A1)
@@ -324,7 +326,7 @@
     - [设置时区](#%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA)
     - [网络时间设置时钟](#%E7%BD%91%E7%BB%9C%E6%97%B6%E9%97%B4%E8%AE%BE%E7%BD%AE%E6%97%B6%E9%92%9F)
 - [终端](#%E7%BB%88%E7%AB%AF-1)
-    - [Ring Terminal Bell](#ring-terminal-bell)
+  - [Ring Terminal Bell](#ring-terminal-bell)
   - [替代终端](#%E6%9B%BF%E4%BB%A3%E7%BB%88%E7%AB%AF)
   - [Shells](#shells)
     - [Bash](#bash)
@@ -377,7 +379,7 @@ mdfind kMDItemAppStoreHasReceipt=1
 
 #### 显示调试菜单
 
-Works up to Yosemite.
+Yosemite 版本起作用
 
 ```bash
 # 开启
@@ -450,7 +452,7 @@ defaults write com.apple.addressbook ABShowDebugMenu -bool false
 
 #### 键盘媒体健
 
-This works up to Yosemite. System Integrity Protection was introduced in El Capitan which prevents system Launch Agents from being unloaded.
+Yosemite 版本起作用。从 El Capitan 开始引入了系统完整性保护，可防止系统启动代理被卸载。
 
 ```bash
 # 停止响应按键
@@ -460,7 +462,7 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 launchctl load -w /System/Library/LaunchAgents/com.apple.rcd.plist
 ```
 
-From El Capitan onwards, you can either disable SIP or resort to a kind of hack, which will make iTunes inaccessible to any user, effectively preventing it from starting itself or its helpers. Be aware that for all intents and purposes this will trash your iTunes installation and may conflict with OS updates down the road.
+从 El Capitan 开始，您可以禁用 SIP 或者使用某种黑客手段，这将使任何用户都无法访问 iTunes，从而有效地阻止它自己和它的帮助者启动。 请注意，这将无法安装 iTunes ，并可能与操作系统的更新相冲突。
 
 ```bash
 sudo chmod 0000 /Applications/iTunes.app
@@ -620,7 +622,7 @@ sudo tmutil enablelocal
 sudo tmutil disablelocal
 ```
 
-Since High Sierra, you cannot disable local snapshots. Time Machine now always creates a local APFS snapshot and uses that snapshot as the data source to create a regular backup, rather than using the live disk as the source, as is the case with HFS formatted disks.
+从 High Sierra 开始，你无法禁用本地快照。 时间机器始终会创建本地 APFS 快照，并使用该快照作为创建常规备份的数据源，而不是使用活动磁盘作为数据源，就像 HFS 格式化磁盘一样。
 
 #### 防止时间机器提示将新的硬盘启动器作为本分卷
 
@@ -1208,7 +1210,7 @@ defaults write com.apple.finder ShowPathbar -bool false
 
 #### 滚动条可见性
 
-Possible values: `WhenScrolling`, `Automatic` and `Always`.
+可选的选项: `WhenScrolling` 、`Automatic` 和 `Always`。
 
 ```bash
 defaults write -g AppleShowScrollBars -string "Always"
@@ -2396,7 +2398,7 @@ mdls /path/to/file
 
 #### 禁止系统完整性保护
 
-Reboot while holding <kbd>Cmd</kbd> + <kbd>R</kbd>, open the Terminal application and enter:
+按住 <kbd>Cmd</kbd> + <kbd>R</kbd> 重启，打开终端输入以下命令：
 
 ```bash
 csrutil disable && reboot
@@ -2404,7 +2406,7 @@ csrutil disable && reboot
 
 #### 开启系统完整性保护
 
-Reboot while holding <kbd>Cmd</kbd> + <kbd>R</kbd>, open the Terminal application and enter:
+按住 <kbd>Cmd</kbd> + <kbd>R</kbd> 重启，打开终端输入以下命令：
 
 ```bash
 csrutil enable && reboot
@@ -2441,7 +2443,7 @@ sudo systemsetup setusingnetworktime off
 
 #### Ring Terminal Bell
 
-Rings the terminal bell (if enabled) and puts a badge on it.
+开启终端响铃，并在其上显示徽标数。
 
 ```bash
 tput bel
@@ -2449,8 +2451,8 @@ tput bel
 
 ### 替代终端
 
-- [iTerm2](https://iterm2.com) - A better Terminal.app.
-- [kitty](https://sw.kovidgoyal.net/kitty/) - Modern, GPU-accelerated terminal emulator.
+- [iTerm2](https://iterm2.com) - 更好的终端应用
+- [kitty](https://sw.kovidgoyal.net/kitty/) - 现代化以及 GPU 加速的终端应用。
 
 ### Shells
 
