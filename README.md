@@ -1,10 +1,10 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
+[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
 
 翻译本教程，让我这个 Mac 小白大开眼界。
 
-[在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/)
+[在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
