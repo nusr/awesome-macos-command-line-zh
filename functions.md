@@ -6,9 +6,7 @@
 - [函数](#%E5%87%BD%E6%95%B0)
   - [开发者](#%E5%BC%80%E5%8F%91%E8%80%85)
     - [应用图标](#%E5%BA%94%E7%94%A8%E5%9B%BE%E6%A0%87)
-      - [创建应用图标](#%E5%88%9B%E5%BB%BA%E5%BA%94%E7%94%A8%E5%9B%BE%E6%A0%87)
     - [助手功能](#%E5%8A%A9%E6%89%8B%E5%8A%9F%E8%83%BD)
-      - [向用户询问密码](#%E5%90%91%E7%94%A8%E6%88%B7%E8%AF%A2%E9%97%AE%E5%AF%86%E7%A0%81)
   - [访达](#%E8%AE%BF%E8%BE%BE)
     - [获取最前面的访达窗口的路径](#%E8%8E%B7%E5%8F%96%E6%9C%80%E5%89%8D%E9%9D%A2%E7%9A%84%E8%AE%BF%E8%BE%BE%E7%AA%97%E5%8F%A3%E7%9A%84%E8%B7%AF%E5%BE%84)
     - [打印访达中选中的文件](#%E6%89%93%E5%8D%B0%E8%AE%BF%E8%BE%BE%E4%B8%AD%E9%80%89%E4%B8%AD%E7%9A%84%E6%96%87%E4%BB%B6)
@@ -154,4 +152,4 @@ function list_view {
 
 ## License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>

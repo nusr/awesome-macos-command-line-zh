@@ -2,7 +2,9 @@
 
 [awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line)的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
 
-翻译本教程，让我这个 Mac 小白熟悉了很多不知道的 Mac 终端命令。
+翻译本教程，让我这个 Mac 小白大开眼界。
+
+[在线地址](https://nusr.github.io/post/awesome-macos-command-line-zh/)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
@@ -10,7 +12,7 @@
 
 更多好用的终端工具，请参阅原作者的姐妹项目 [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)。
 
-中文 | [English](<[README.md](https://github.com/herrbischoff/awesome-macos-command-line)>)
+中文 | [English](https://github.com/herrbischoff/awesome-macos-command-line)
 
 - [外形](#%E5%A4%96%E5%BD%A2)
   - [透明度](#%E9%80%8F%E6%98%8E%E5%BA%A6)
