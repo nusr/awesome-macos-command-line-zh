@@ -1,12 +1,16 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)[![Build Status](https://travis-ci.org/nusr/awesome-macos-command-line-zh.svg?branch=master)](https://travis-ci.org/nusr/awesome-macos-command-line-zh)
 
-[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 的中文翻译，翻译不妥的地方，欢迎提 issue 或者 pull request 。
+[awesome-macos-command-line](https://github.com/herrbischoff/awesome-macos-command-line) 收集了很多有趣的 Mac 终端命令。
 
-翻译本教程，见识了许多没用过的终端命令，加深了对 Mac 的认识。
+看了一遍后，发现帮助很大。
 
-[在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
+见识了许多没有使用过的命令，加深了对 Mac 的认识。
 
-[Mac OS 版本一览表](glossary.md)
+所以翻译成中文，分享给其他需要的人查看。
+
+翻译不妥的地方，欢迎提 issue 或者 pull request 。
+
+为了获得更好的阅读效果，可以在线预览。[在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
