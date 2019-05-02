@@ -22,7 +22,7 @@
 - [应用](#%E5%BA%94%E7%94%A8)
   - [App Store](#app-store)
   - [苹果远程桌面](#%E8%8B%B9%E6%9E%9C%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2)
-  - [交流](#%E4%BA%A4%E6%B5%81)
+  - [通讯录](#%E9%80%9A%E8%AE%AF%E5%BD%95)
   - [Google](#google)
   - [iTunes](#itunes)
   - [邮件](#%E9%82%AE%E4%BB%B6)
@@ -208,7 +208,7 @@ rm -r ~/Library/Application\ Support/Remote\ Desktop/ ; \
 rm -r ~/Library/Containers/com.apple.RemoteDesktop
 ```
 
-### 交流
+### 通讯录
 
 #### 调试模式
 
