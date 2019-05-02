@@ -136,10 +136,10 @@ defaults write com.apple.universalaccess reduceTransparency -bool false
 #### 设置桌面背景
 
 ```bash
-# Up to Mountain Lion
+# Mountain Lion 及之前的版本支持
 osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/path/to/picture.jpg"'
 
-# Since Mavericks
+# 从 Mavericks 开始支持
 sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '/path/to/picture.jpg'" && killall Dock
 ```
 
