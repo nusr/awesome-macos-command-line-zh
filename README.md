@@ -10,8 +10,6 @@
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
-> _“You don’t have to know everything. You simply need to know where to find it when necessary.” (John Brunner)_
-> 
 > _“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)_
 
 更多好用的终端工具，请参阅原作者的姐妹项目 [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)。
@@ -20,320 +18,100 @@
 
 - [外形](#%E5%A4%96%E5%BD%A2)
   - [透明度](#%E9%80%8F%E6%98%8E%E5%BA%A6)
-    - [菜单和窗口的透明度设置](#%E8%8F%9C%E5%8D%95%E5%92%8C%E7%AA%97%E5%8F%A3%E7%9A%84%E9%80%8F%E6%98%8E%E5%BA%A6%E8%AE%BE%E7%BD%AE)
   - [桌面背景](#%E6%A1%8C%E9%9D%A2%E8%83%8C%E6%99%AF)
-    - [设置桌面背景](#%E8%AE%BE%E7%BD%AE%E6%A1%8C%E9%9D%A2%E8%83%8C%E6%99%AF)
 - [应用](#%E5%BA%94%E7%94%A8)
   - [App Store](#app-store)
-    - [列出所有从 App Store 下载的应用](#%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E4%BB%8E-app-store-%E4%B8%8B%E8%BD%BD%E7%9A%84%E5%BA%94%E7%94%A8)
-    - [显示调试菜单](#%E6%98%BE%E7%A4%BA%E8%B0%83%E8%AF%95%E8%8F%9C%E5%8D%95)
   - [苹果远程桌面](#%E8%8B%B9%E6%9E%9C%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2)
-    - [唤醒手册](#%E5%94%A4%E9%86%92%E6%89%8B%E5%86%8C)
-    - [唤醒和睡眠 ARD Agent 和 Helper](#%E5%94%A4%E9%86%92%E5%92%8C%E7%9D%A1%E7%9C%A0-ard-agent-%E5%92%8C-helper)
-    - [开启和关闭远程桌面共享](#%E5%BC%80%E5%90%AF%E5%92%8C%E5%85%B3%E9%97%AD%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%85%B1%E4%BA%AB)
-    - [删除苹果远程桌面设置](#%E5%88%A0%E9%99%A4%E8%8B%B9%E6%9E%9C%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E8%AE%BE%E7%BD%AE)
   - [交流](#%E4%BA%A4%E6%B5%81)
-    - [调试模式](#%E8%B0%83%E8%AF%95%E6%A8%A1%E5%BC%8F)
   - [Google](#google)
-    - [卸载 Google 更新](#%E5%8D%B8%E8%BD%BD-google-%E6%9B%B4%E6%96%B0)
   - [iTunes](#itunes)
-    - [键盘媒体健](#%E9%94%AE%E7%9B%98%E5%AA%92%E4%BD%93%E5%81%A5)
   - [邮件](#%E9%82%AE%E4%BB%B6)
-    - [将附件显示为图标](#%E5%B0%86%E9%99%84%E4%BB%B6%E6%98%BE%E7%A4%BA%E4%B8%BA%E5%9B%BE%E6%A0%87)
-    - [清空邮件索引](#%E6%B8%85%E7%A9%BA%E9%82%AE%E4%BB%B6%E7%B4%A2%E5%BC%95)
   - [Safari](#safari)
-    - [改变默认字体](#%E6%94%B9%E5%8F%98%E9%BB%98%E8%AE%A4%E5%AD%97%E4%BD%93)
-    - [开启开发者菜单以及网络检查](#%E5%BC%80%E5%90%AF%E5%BC%80%E5%8F%91%E8%80%85%E8%8F%9C%E5%8D%95%E4%BB%A5%E5%8F%8A%E7%BD%91%E7%BB%9C%E6%A3%80%E6%9F%A5)
-    - [获取当前网页数据](#%E8%8E%B7%E5%8F%96%E5%BD%93%E5%89%8D%E7%BD%91%E9%A1%B5%E6%95%B0%E6%8D%AE)
-    - [使用 Backspace/Delete 返回上一页](#%E4%BD%BF%E7%94%A8-backspacedelete-%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E9%A1%B5)
   - [Sketch](#sketch)
-    - [导出压缩 SVG](#%E5%AF%BC%E5%87%BA%E5%8E%8B%E7%BC%A9-svg)
   - [Skim](#skim)
-    - [关闭自动加载弹窗](#%E5%85%B3%E9%97%AD%E8%87%AA%E5%8A%A8%E5%8A%A0%E8%BD%BD%E5%BC%B9%E7%AA%97)
   - [终端](#%E7%BB%88%E7%AB%AF)
-    - [焦点跟随鼠标](#%E7%84%A6%E7%82%B9%E8%B7%9F%E9%9A%8F%E9%BC%A0%E6%A0%87)
   - [文本编辑](#%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91)
-    - [将文本编辑设置为纯文本的默认打开方式 Use Plain Text Mode as Default](#%E5%B0%86%E6%96%87%E6%9C%AC%E7%BC%96%E8%BE%91%E8%AE%BE%E7%BD%AE%E4%B8%BA%E7%BA%AF%E6%96%87%E6%9C%AC%E7%9A%84%E9%BB%98%E8%AE%A4%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F-use-plain-text-mode-as-default)
   - [Visual Studio Code](#visual-studio-code)
-    - [解决 VSCode Vim 按键重复](#%E8%A7%A3%E5%86%B3-vscode-vim-%E6%8C%89%E9%94%AE%E9%87%8D%E5%A4%8D)
 - [备份](#%E5%A4%87%E4%BB%BD)
   - [时间机器](#%E6%97%B6%E9%97%B4%E6%9C%BA%E5%99%A8)
-    - [改变备份间隔](#%E6%94%B9%E5%8F%98%E5%A4%87%E4%BB%BD%E9%97%B4%E9%9A%94)
-    - [本地备份](#%E6%9C%AC%E5%9C%B0%E5%A4%87%E4%BB%BD)
-    - [防止时间机器提示将新的硬盘启动器作为本分卷](#%E9%98%B2%E6%AD%A2%E6%97%B6%E9%97%B4%E6%9C%BA%E5%99%A8%E6%8F%90%E7%A4%BA%E5%B0%86%E6%96%B0%E7%9A%84%E7%A1%AC%E7%9B%98%E5%90%AF%E5%8A%A8%E5%99%A8%E4%BD%9C%E4%B8%BA%E6%9C%AC%E5%88%86%E5%8D%B7)
-    - [显示时间机器的日志](#%E6%98%BE%E7%A4%BA%E6%97%B6%E9%97%B4%E6%9C%BA%E5%99%A8%E7%9A%84%E6%97%A5%E5%BF%97)
-    - [充电时切换备份](#%E5%85%85%E7%94%B5%E6%97%B6%E5%88%87%E6%8D%A2%E5%A4%87%E4%BB%BD)
-    - [验证备份](#%E9%AA%8C%E8%AF%81%E5%A4%87%E4%BB%BD)
-- [开发这](#%E5%BC%80%E5%8F%91%E8%BF%99)
+- [开发者](#%E5%BC%80%E5%8F%91%E8%80%85)
   - [Vim](#vim)
-    - [编译 Sane Vim](#%E7%BC%96%E8%AF%91-sane-vim)
-    - [Neovim](#neovim)
   - [Xcode](#xcode)
-    - [安装没有命令行工具的 Xcode](#%E5%AE%89%E8%A3%85%E6%B2%A1%E6%9C%89%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%B7%A5%E5%85%B7%E7%9A%84-xcode)
-    - [删除所有不可用的模拟器](#%E5%88%A0%E9%99%A4%E6%89%80%E6%9C%89%E4%B8%8D%E5%8F%AF%E7%94%A8%E7%9A%84%E6%A8%A1%E6%8B%9F%E5%99%A8)
 - [程序坞](#%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-  - [将最近使用的程序添加到程序坞](#%E5%B0%86%E6%9C%80%E8%BF%91%E4%BD%BF%E7%94%A8%E7%9A%84%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-  - [添加间隔符的无名文件夹](#%E6%B7%BB%E5%8A%A0%E9%97%B4%E9%9A%94%E7%AC%A6%E7%9A%84%E6%97%A0%E5%90%8D%E6%96%87%E4%BB%B6%E5%A4%B9)
-  - [添加空格](#%E6%B7%BB%E5%8A%A0%E7%A9%BA%E6%A0%BC)
-  - [添加小空格](#%E6%B7%BB%E5%8A%A0%E5%B0%8F%E7%A9%BA%E6%A0%BC)
-  - [根据用户最近的使用自动重排](#%E6%A0%B9%E6%8D%AE%E7%94%A8%E6%88%B7%E6%9C%80%E8%BF%91%E7%9A%84%E4%BD%BF%E7%94%A8%E8%87%AA%E5%8A%A8%E9%87%8D%E6%8E%92)
-  - [图标弹跳](#%E5%9B%BE%E6%A0%87%E5%BC%B9%E8%B7%B3)
-  - [锁住程序坞大小](#%E9%94%81%E4%BD%8F%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
-  - [重置程序坞](#%E9%87%8D%E7%BD%AE%E7%A8%8B%E5%BA%8F%E5%9D%9E)
-  - [改变程序坞大小](#%E6%94%B9%E5%8F%98%E7%A8%8B%E5%BA%8F%E5%9D%9E%E5%A4%A7%E5%B0%8F)
-  - [滚动手势](#%E6%BB%9A%E5%8A%A8%E6%89%8B%E5%8A%BF)
-  - [启用自动掩藏](#%E5%90%AF%E7%94%A8%E8%87%AA%E5%8A%A8%E6%8E%A9%E8%97%8F)
-  - [设置自动显示和掩藏的延迟时间](#%E8%AE%BE%E7%BD%AE%E8%87%AA%E5%8A%A8%E6%98%BE%E7%A4%BA%E5%92%8C%E6%8E%A9%E8%97%8F%E7%9A%84%E5%BB%B6%E8%BF%9F%E6%97%B6%E9%97%B4)
-  - [显示掩藏 APP 的图标](#%E6%98%BE%E7%A4%BA%E6%8E%A9%E8%97%8F-app-%E7%9A%84%E5%9B%BE%E6%A0%87)
-  - [仅显示启动的应用程序图标](#%E4%BB%85%E6%98%BE%E7%A4%BA%E5%90%AF%E5%8A%A8%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E5%9B%BE%E6%A0%87)
 - [文档](#%E6%96%87%E6%A1%A3)
-  - [将文件转换为 HTML](#%E5%B0%86%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-html)
 - [文件、磁盘和卷](#%E6%96%87%E4%BB%B6%E7%A3%81%E7%9B%98%E5%92%8C%E5%8D%B7)
-  - [创建一个空文件](#%E5%88%9B%E5%BB%BA%E4%B8%80%E4%B8%AA%E7%A9%BA%E6%96%87%E4%BB%B6)
-  - [禁止突发动作感应](#%E7%A6%81%E6%AD%A2%E7%AA%81%E5%8F%91%E5%8A%A8%E4%BD%9C%E6%84%9F%E5%BA%94)
-  - [弹出所有可安装的卷](#%E5%BC%B9%E5%87%BA%E6%89%80%E6%9C%89%E5%8F%AF%E5%AE%89%E8%A3%85%E7%9A%84%E5%8D%B7)
-  - [修复文件权限](#%E4%BF%AE%E5%A4%8D%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90)
-  - [设置启动卷](#%E8%AE%BE%E7%BD%AE%E5%90%AF%E5%8A%A8%E5%8D%B7)
-  - [示所有附加的磁盘和分区](#%E7%A4%BA%E6%89%80%E6%9C%89%E9%99%84%E5%8A%A0%E7%9A%84%E7%A3%81%E7%9B%98%E5%92%8C%E5%88%86%E5%8C%BA)
-  - [查看文件系统的使用率](#%E6%9F%A5%E7%9C%8B%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%BD%BF%E7%94%A8%E7%8E%87)
   - [APFS](#apfs)
-    - [将卷从 HFS+ 转换为 APFS](#%E5%B0%86%E5%8D%B7%E4%BB%8E-hfs-%E8%BD%AC%E6%8D%A2%E4%B8%BA-apfs)
-    - [创建新的 APFS 文件系统](#%E5%88%9B%E5%BB%BA%E6%96%B0%E7%9A%84-apfs-%E6%96%87%E4%BB%B6%E7%B3%BB%E7%BB%9F)
-    - [创建快照](#%E5%88%9B%E5%BB%BA%E5%BF%AB%E7%85%A7)
-    - [删除快照](#%E5%88%A0%E9%99%A4%E5%BF%AB%E7%85%A7)
-    - [列出所有快照](#%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E5%BF%AB%E7%85%A7)
-    - [挂载快照](#%E6%8C%82%E8%BD%BD%E5%BF%AB%E7%85%A7)
   - [磁盘映像](#%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F)
-    - [从文件内容创建磁盘映像](#%E4%BB%8E%E6%96%87%E4%BB%B6%E5%86%85%E5%AE%B9%E5%88%9B%E5%BB%BA%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F)
-    - [将磁盘映像刻录为 DVD](#%E5%B0%86%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F%E5%88%BB%E5%BD%95%E4%B8%BA-dvd)
-    - [禁止磁盘映像验证](#%E7%A6%81%E6%AD%A2%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F%E9%AA%8C%E8%AF%81)
-    - [制作 OS X 启动卷](#%E5%88%B6%E4%BD%9C-os-x-%E5%90%AF%E5%8A%A8%E5%8D%B7)
-    - [挂载磁盘映像](#%E6%8C%82%E8%BD%BD%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F)
-    - [卸载磁盘映像](#%E5%8D%B8%E8%BD%BD%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F)
-    - [将磁盘映像写入到卷中](#%E5%B0%86%E7%A3%81%E7%9B%98%E6%98%A0%E5%83%8F%E5%86%99%E5%85%A5%E5%88%B0%E5%8D%B7%E4%B8%AD)
 - [访达](#%E8%AE%BF%E8%BE%BE)
   - [桌面](#%E6%A1%8C%E9%9D%A2)
-    - [显示外部媒体](#%E6%98%BE%E7%A4%BA%E5%A4%96%E9%83%A8%E5%AA%92%E4%BD%93)
-    - [显示内部媒体](#%E6%98%BE%E7%A4%BA%E5%86%85%E9%83%A8%E5%AA%92%E4%BD%93)
-    - [显示可移动媒体](#%E6%98%BE%E7%A4%BA%E5%8F%AF%E7%A7%BB%E5%8A%A8%E5%AA%92%E4%BD%93)
-    - [显示网络卷](#%E6%98%BE%E7%A4%BA%E7%BD%91%E7%BB%9C%E5%8D%B7)
   - [文件和文件夹](#%E6%96%87%E4%BB%B6%E5%92%8C%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [清除所有访问控制列表(ACLs)](#%E6%B8%85%E9%99%A4%E6%89%80%E6%9C%89%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8acls)
-    - [在访达掩藏文件夹](#%E5%9C%A8%E8%AE%BF%E8%BE%BE%E6%8E%A9%E8%97%8F%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [显示所有文件的扩展名](#%E6%98%BE%E7%A4%BA%E6%89%80%E6%9C%89%E6%96%87%E4%BB%B6%E7%9A%84%E6%89%A9%E5%B1%95%E5%90%8D)
-    - [显示掩藏文件](#%E6%98%BE%E7%A4%BA%E6%8E%A9%E8%97%8F%E6%96%87%E4%BB%B6)
-    - [删除保护标签](#%E5%88%A0%E9%99%A4%E4%BF%9D%E6%8A%A4%E6%A0%87%E7%AD%BE)
-    - [在访达中显示全路径](#%E5%9C%A8%E8%AE%BF%E8%BE%BE%E4%B8%AD%E6%98%BE%E7%A4%BA%E5%85%A8%E8%B7%AF%E5%BE%84)
-    - [取消隐藏用户文件夹](#%E5%8F%96%E6%B6%88%E9%9A%90%E8%97%8F%E7%94%A8%E6%88%B7%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [增加最近访问文件数量](#%E5%A2%9E%E5%8A%A0%E6%9C%80%E8%BF%91%E8%AE%BF%E9%97%AE%E6%96%87%E4%BB%B6%E6%95%B0%E9%87%8F)
   - [布局](#%E5%B8%83%E5%B1%80)
-    - [显示退出访达按钮](#%E6%98%BE%E7%A4%BA%E9%80%80%E5%87%BA%E8%AE%BF%E8%BE%BE%E6%8C%89%E9%92%AE)
-    - [平滑滚动](#%E5%B9%B3%E6%BB%91%E6%BB%9A%E5%8A%A8)
-    - [橡皮筋滚动](#%E6%A9%A1%E7%9A%AE%E7%AD%8B%E6%BB%9A%E5%8A%A8)
-    - [展开默认保存面板](#%E5%B1%95%E5%BC%80%E9%BB%98%E8%AE%A4%E4%BF%9D%E5%AD%98%E9%9D%A2%E6%9D%BF)
-    - [桌面图标可见性](#%E6%A1%8C%E9%9D%A2%E5%9B%BE%E6%A0%87%E5%8F%AF%E8%A7%81%E6%80%A7)
-    - [路径栏](#%E8%B7%AF%E5%BE%84%E6%A0%8F)
-    - [滚动条可见性](#%E6%BB%9A%E5%8A%A8%E6%9D%A1%E5%8F%AF%E8%A7%81%E6%80%A7)
-    - [状态栏](#%E7%8A%B6%E6%80%81%E6%A0%8F)
-    - [默认保存到磁盘](#%E9%BB%98%E8%AE%A4%E4%BF%9D%E5%AD%98%E5%88%B0%E7%A3%81%E7%9B%98)
-    - [当当前文件夹设置为默认搜索范围](#%E5%BD%93%E5%BD%93%E5%89%8D%E6%96%87%E4%BB%B6%E5%A4%B9%E8%AE%BE%E7%BD%AE%E4%B8%BA%E9%BB%98%E8%AE%A4%E6%90%9C%E7%B4%A2%E8%8C%83%E5%9B%B4)
-    - [设置访达的默认文件夹](#%E8%AE%BE%E7%BD%AE%E8%AE%BF%E8%BE%BE%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [设置侧边栏图标大小](#%E8%AE%BE%E7%BD%AE%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%9B%BE%E6%A0%87%E5%A4%A7%E5%B0%8F)
   - [元数据文件](#%E5%85%83%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6)
-    - [禁止在网络卷创建元数据文件](#%E7%A6%81%E6%AD%A2%E5%9C%A8%E7%BD%91%E7%BB%9C%E5%8D%B7%E5%88%9B%E5%BB%BA%E5%85%83%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6)
-    - [禁止在 USB 卷创建元数据文件](#%E7%A6%81%E6%AD%A2%E5%9C%A8-usb-%E5%8D%B7%E5%88%9B%E5%BB%BA%E5%85%83%E6%95%B0%E6%8D%AE%E6%96%87%E4%BB%B6)
   - [打开文件](#%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6)
-    - [改变访达的工作文件夹](#%E6%94%B9%E5%8F%98%E8%AE%BF%E8%BE%BE%E7%9A%84%E5%B7%A5%E4%BD%9C%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [打开 URL](#%E6%89%93%E5%BC%80-url)
-    - [打开文件](#%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6-1)
-    - [打开应用程序](#%E6%89%93%E5%BC%80%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
-    - [打开文件夹](#%E6%89%93%E5%BC%80%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [打开当前文件夹](#%E6%89%93%E5%BC%80%E5%BD%93%E5%89%8D%E6%96%87%E4%BB%B6%E5%A4%B9)
 - [字体](#%E5%AD%97%E4%BD%93)
-  - [清空当前用户字体缓存](#%E6%B8%85%E7%A9%BA%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E5%AD%97%E4%BD%93%E7%BC%93%E5%AD%98)
-  - [获取 SF Mono 字体](#%E8%8E%B7%E5%8F%96-sf-mono-%E5%AD%97%E4%BD%93)
 - [函数](#%E5%87%BD%E6%95%B0)
 - [硬件](#%E7%A1%AC%E4%BB%B6)
   - [蓝牙](#%E8%93%9D%E7%89%99)
   - [硬盘](#%E7%A1%AC%E7%9B%98)
-    - [强制启用修剪](#%E5%BC%BA%E5%88%B6%E5%90%AF%E7%94%A8%E4%BF%AE%E5%89%AA)
   - [硬件信息](#%E7%A1%AC%E4%BB%B6%E4%BF%A1%E6%81%AF)
-    - [列出所有硬件端口](#%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E7%A1%AC%E4%BB%B6%E7%AB%AF%E5%8F%A3)
-    - [剩余电池百分比](#%E5%89%A9%E4%BD%99%E7%94%B5%E6%B1%A0%E7%99%BE%E5%88%86%E6%AF%94)
-    - [剩余电池时间](#%E5%89%A9%E4%BD%99%E7%94%B5%E6%B1%A0%E6%97%B6%E9%97%B4)
-    - [显示已连接设备的 UDID](#%E6%98%BE%E7%A4%BA%E5%B7%B2%E8%BF%9E%E6%8E%A5%E8%AE%BE%E5%A4%87%E7%9A%84-udid)
-    - [显示当前屏幕分辨率](#%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E5%B1%8F%E5%B9%95%E5%88%86%E8%BE%A8%E7%8E%87)
-    - [显示 CPU 品牌信息](#%E6%98%BE%E7%A4%BA-cpu-%E5%93%81%E7%89%8C%E4%BF%A1%E6%81%AF)
   - [红外传感器](#%E7%BA%A2%E5%A4%96%E4%BC%A0%E6%84%9F%E5%99%A8)
   - [电池管理](#%E7%94%B5%E6%B1%A0%E7%AE%A1%E7%90%86)
-    - [禁止电脑休眠](#%E7%A6%81%E6%AD%A2%E7%94%B5%E8%84%91%E4%BC%91%E7%9C%A0)
-    - [显示所有电池设置](#%E6%98%BE%E7%A4%BA%E6%89%80%E6%9C%89%E7%94%B5%E6%B1%A0%E8%AE%BE%E7%BD%AE)
-    - [15 分钟无活动后显示器睡眠](#15-%E5%88%86%E9%92%9F%E6%97%A0%E6%B4%BB%E5%8A%A8%E5%90%8E%E6%98%BE%E7%A4%BA%E5%99%A8%E7%9D%A1%E7%9C%A0)
-    - [30 分钟无活动后显示器睡眠](#30-%E5%88%86%E9%92%9F%E6%97%A0%E6%B4%BB%E5%8A%A8%E5%90%8E%E6%98%BE%E7%A4%BA%E5%99%A8%E7%9D%A1%E7%9C%A0)
-    - [检查系统睡眠剩余时间](#%E6%A3%80%E6%9F%A5%E7%B3%BB%E7%BB%9F%E7%9D%A1%E7%9C%A0%E5%89%A9%E4%BD%99%E6%97%B6%E9%97%B4)
-    - [将系统睡眠剩余时间设置为 60 分钟](#%E5%B0%86%E7%B3%BB%E7%BB%9F%E7%9D%A1%E7%9C%A0%E5%89%A9%E4%BD%99%E6%97%B6%E9%97%B4%E8%AE%BE%E7%BD%AE%E4%B8%BA-60-%E5%88%86%E9%92%9F)
-    - [完全关闭系统睡眠](#%E5%AE%8C%E5%85%A8%E5%85%B3%E9%97%AD%E7%B3%BB%E7%BB%9F%E7%9D%A1%E7%9C%A0)
-    - [系统冻结时自动重启](#%E7%B3%BB%E7%BB%9F%E5%86%BB%E7%BB%93%E6%97%B6%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AF)
-    - [充电时显示铃声](#%E5%85%85%E7%94%B5%E6%97%B6%E6%98%BE%E7%A4%BA%E9%93%83%E5%A3%B0)
 - [输入设备](#%E8%BE%93%E5%85%A5%E8%AE%BE%E5%A4%87)
   - [键盘](#%E9%94%AE%E7%9B%98)
-    - [自动纠正](#%E8%87%AA%E5%8A%A8%E7%BA%A0%E6%AD%A3)
-    - [全键盘访问](#%E5%85%A8%E9%94%AE%E7%9B%98%E8%AE%BF%E9%97%AE)
-    - [按键重复](#%E6%8C%89%E9%94%AE%E9%87%8D%E5%A4%8D)
-    - [按键重复频率](#%E6%8C%89%E9%94%AE%E9%87%8D%E5%A4%8D%E9%A2%91%E7%8E%87)
 - [启动台](#%E5%90%AF%E5%8A%A8%E5%8F%B0)
-  - [重设启动台布局](#%E9%87%8D%E8%AE%BE%E5%90%AF%E5%8A%A8%E5%8F%B0%E5%B8%83%E5%B1%80)
 - [媒体](#%E5%AA%92%E4%BD%93)
   - [音频](#%E9%9F%B3%E9%A2%91)
-    - [将音频文件转换为 iPhone 铃声。](#%E5%B0%86%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-iphone-%E9%93%83%E5%A3%B0)
-    - [从文本创建音频书](#%E4%BB%8E%E6%96%87%E6%9C%AC%E5%88%9B%E5%BB%BA%E9%9F%B3%E9%A2%91%E4%B9%A6)
-    - [开机禁用声音](#%E5%BC%80%E6%9C%BA%E7%A6%81%E7%94%A8%E5%A3%B0%E9%9F%B3)
-    - [静音音频输出](#%E9%9D%99%E9%9F%B3%E9%9F%B3%E9%A2%91%E8%BE%93%E5%87%BA)
-    - [设置音量](#%E8%AE%BE%E7%BD%AE%E9%9F%B3%E9%87%8F)
-    - [播放音频文件](#%E6%92%AD%E6%94%BE%E9%9F%B3%E9%A2%91%E6%96%87%E4%BB%B6)
-    - [使用系统默认声音讲述文本](#%E4%BD%BF%E7%94%A8%E7%B3%BB%E7%BB%9F%E9%BB%98%E8%AE%A4%E5%A3%B0%E9%9F%B3%E8%AE%B2%E8%BF%B0%E6%96%87%E6%9C%AC)
   - [视频](#%E8%A7%86%E9%A2%91)
-    - [QuickTime 自动播放视频](#quicktime-%E8%87%AA%E5%8A%A8%E6%92%AD%E6%94%BE%E8%A7%86%E9%A2%91)
 - [网络](#%E7%BD%91%E7%BB%9C)
   - [Bonjour](#bonjour)
-    - [Bonjour 服务](#bonjour-%E6%9C%8D%E5%8A%A1)
   - [DHCP](#dhcp)
-    - [更新 DHCP 租约](#%E6%9B%B4%E6%96%B0-dhcp-%E7%A7%9F%E7%BA%A6)
-    - [显示 DHCP 信息](#%E6%98%BE%E7%A4%BA-dhcp-%E4%BF%A1%E6%81%AF)
   - [DNS](#dns)
-    - [清除 DNS 缓存](#%E6%B8%85%E9%99%A4-dns-%E7%BC%93%E5%AD%98)
   - [域名](#%E5%9F%9F%E5%90%8D)
-    - [设置电脑域名](#%E8%AE%BE%E7%BD%AE%E7%94%B5%E8%84%91%E5%9F%9F%E5%90%8D)
   - [网络设置](#%E7%BD%91%E7%BB%9C%E8%AE%BE%E7%BD%AE)
-    - [网络位置](#%E7%BD%91%E7%BB%9C%E4%BD%8D%E7%BD%AE)
-    - [设置静态 IP 地址](#%E8%AE%BE%E7%BD%AE%E9%9D%99%E6%80%81-ip-%E5%9C%B0%E5%9D%80)
   - [网络工具](#%E7%BD%91%E7%BB%9C%E5%B7%A5%E5%85%B7)
-    - [查看网络地址是否可以访问](#%E6%9F%A5%E7%9C%8B%E7%BD%91%E7%BB%9C%E5%9C%B0%E5%9D%80%E6%98%AF%E5%90%A6%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AE)
-    - [解决路由问题](#%E8%A7%A3%E5%86%B3%E8%B7%AF%E7%94%B1%E9%97%AE%E9%A2%98)
   - [SSH](#ssh)
-    - [将私钥密码永久添加到 SSH 代理](#%E5%B0%86%E7%A7%81%E9%92%A5%E5%AF%86%E7%A0%81%E6%B0%B8%E4%B9%85%E6%B7%BB%E5%8A%A0%E5%88%B0-ssh-%E4%BB%A3%E7%90%86)
-    - [远程登录](#%E8%BF%9C%E7%A8%8B%E7%99%BB%E5%BD%95)
   - [TCP/IP](#tcpip)
-    - [显示使用特定端口的应用程序](#%E6%98%BE%E7%A4%BA%E4%BD%BF%E7%94%A8%E7%89%B9%E5%AE%9A%E7%AB%AF%E5%8F%A3%E7%9A%84%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F)
-    - [显示外部 IP 地址](#%E6%98%BE%E7%A4%BA%E5%A4%96%E9%83%A8-ip-%E5%9C%B0%E5%9D%80)
   - [TFTP](#tftp)
-    - [启动原生的 TFTP Daemon](#%E5%90%AF%E5%8A%A8%E5%8E%9F%E7%94%9F%E7%9A%84-tftp-daemon)
   - [Wi-Fi](#wi-fi)
-    - [加入 Wi-Fi 网络](#%E5%8A%A0%E5%85%A5-wi-fi-%E7%BD%91%E7%BB%9C)
-    - [扫描可用的接入点](#%E6%89%AB%E6%8F%8F%E5%8F%AF%E7%94%A8%E7%9A%84%E6%8E%A5%E5%85%A5%E7%82%B9)
-    - [显示当前的 SSID](#%E6%98%BE%E7%A4%BA%E5%BD%93%E5%89%8D%E7%9A%84-ssid)
-    - [显示本地 IP 地址](#%E6%98%BE%E7%A4%BA%E6%9C%AC%E5%9C%B0-ip-%E5%9C%B0%E5%9D%80)
-    - [显示 Wi-Fi 的连接历史](#%E6%98%BE%E7%A4%BA-wi-fi-%E7%9A%84%E8%BF%9E%E6%8E%A5%E5%8E%86%E5%8F%B2)
-    - [显示 Wi-Fi 网络密码](#%E6%98%BE%E7%A4%BA-wi-fi-%E7%BD%91%E7%BB%9C%E5%AF%86%E7%A0%81)
-    - [开启 Wi-Fi 适配器](#%E5%BC%80%E5%90%AF-wi-fi-%E9%80%82%E9%85%8D%E5%99%A8)
 - [包管理器](#%E5%8C%85%E7%AE%A1%E7%90%86%E5%99%A8)
 - [打印](#%E6%89%93%E5%8D%B0)
-  - [清除打印队列](#%E6%B8%85%E9%99%A4%E6%89%93%E5%8D%B0%E9%98%9F%E5%88%97)
-  - [默认展开打印面板](#%E9%BB%98%E8%AE%A4%E5%B1%95%E5%BC%80%E6%89%93%E5%8D%B0%E9%9D%A2%E6%9D%BF)
-  - [打印完成后停止打印机](#%E6%89%93%E5%8D%B0%E5%AE%8C%E6%88%90%E5%90%8E%E5%81%9C%E6%AD%A2%E6%89%93%E5%8D%B0%E6%9C%BA)
 - [安全](#%E5%AE%89%E5%85%A8)
   - [应用防火墙](#%E5%BA%94%E7%94%A8%E9%98%B2%E7%81%AB%E5%A2%99)
-    - [防火墙服务](#%E9%98%B2%E7%81%AB%E5%A2%99%E6%9C%8D%E5%8A%A1)
-    - [将应用添加到防火墙](#%E5%B0%86%E5%BA%94%E7%94%A8%E6%B7%BB%E5%8A%A0%E5%88%B0%E9%98%B2%E7%81%AB%E5%A2%99)
   - [网关](#%E7%BD%91%E5%85%B3)
-    - [添加网关异常](#%E6%B7%BB%E5%8A%A0%E7%BD%91%E5%85%B3%E5%BC%82%E5%B8%B8)
-    - [删除网关异常](#%E5%88%A0%E9%99%A4%E7%BD%91%E5%85%B3%E5%BC%82%E5%B8%B8)
-    - [管理网关](#%E7%AE%A1%E7%90%86%E7%BD%91%E5%85%B3)
   - [密码](#%E5%AF%86%E7%A0%81)
-    - [产生安全的密码并且复制到剪贴板](#%E4%BA%A7%E7%94%9F%E5%AE%89%E5%85%A8%E7%9A%84%E5%AF%86%E7%A0%81%E5%B9%B6%E4%B8%94%E5%A4%8D%E5%88%B6%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF)
   - [物理访问](#%E7%89%A9%E7%90%86%E8%AE%BF%E9%97%AE)
-    - [启动屏幕保护程序](#%E5%90%AF%E5%8A%A8%E5%B1%8F%E5%B9%95%E4%BF%9D%E6%8A%A4%E7%A8%8B%E5%BA%8F)
-    - [锁屏](#%E9%94%81%E5%B1%8F)
-    - [屏幕锁定](#%E5%B1%8F%E5%B9%95%E9%94%81%E5%AE%9A)
-    - [屏幕保护密码](#%E5%B1%8F%E5%B9%95%E4%BF%9D%E6%8A%A4%E5%AF%86%E7%A0%81)
   - [擦除数据](#%E6%93%A6%E9%99%A4%E6%95%B0%E6%8D%AE)
-    - [安全删除文件](#%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6)
-    - [安全删除文件夹](#%E5%AE%89%E5%85%A8%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [安全强制删除文件夹](#%E5%AE%89%E5%85%A8%E5%BC%BA%E5%88%B6%E5%88%A0%E9%99%A4%E6%96%87%E4%BB%B6%E5%A4%B9)
 - [搜索](#%E6%90%9C%E7%B4%A2)
   - [查找](#%E6%9F%A5%E6%89%BE)
-    - [递归删除 .DS_Store 文件](#%E9%80%92%E5%BD%92%E5%88%A0%E9%99%A4-dsstore-%E6%96%87%E4%BB%B6)
   - [定位](#%E5%AE%9A%E4%BD%8D)
-    - [建立定位数据库](#%E5%BB%BA%E7%AB%8B%E5%AE%9A%E4%BD%8D%E6%95%B0%E6%8D%AE%E5%BA%93)
-    - [通过定位查询](#%E9%80%9A%E8%BF%87%E5%AE%9A%E4%BD%8D%E6%9F%A5%E8%AF%A2)
 - [系统](#%E7%B3%BB%E7%BB%9F)
   - [AirDrop](#airdrop)
   - [AppleScript](#applescript)
-    - [执行 AppleScript](#%E6%89%A7%E8%A1%8C-applescript)
   - [基础](#%E5%9F%BA%E7%A1%80)
-    - [比较两个文件夹](#%E6%AF%94%E8%BE%83%E4%B8%A4%E4%B8%AA%E6%96%87%E4%BB%B6%E5%A4%B9)
-    - [复制较大文件显示进度条](#%E5%A4%8D%E5%88%B6%E8%BE%83%E5%A4%A7%E6%96%87%E4%BB%B6%E6%98%BE%E7%A4%BA%E8%BF%9B%E5%BA%A6%E6%9D%A1)
-    - [修复疯狂 Shell](#%E4%BF%AE%E5%A4%8D%E7%96%AF%E7%8B%82-shell)
-    - [重启](#%E9%87%8D%E5%90%AF)
-    - [关机](#%E5%85%B3%E6%9C%BA)
-    - [显示 OS 版本信息](#%E6%98%BE%E7%A4%BA-os-%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF)
-    - [开机时间](#%E5%BC%80%E6%9C%BA%E6%97%B6%E9%97%B4)
   - [剪贴板](#%E5%89%AA%E8%B4%B4%E6%9D%BF)
-    - [复制数据到剪贴板](#%E5%A4%8D%E5%88%B6%E6%95%B0%E6%8D%AE%E5%88%B0%E5%89%AA%E8%B4%B4%E6%9D%BF)
-    - [将剪贴板数据转换为纯文本](#%E5%B0%86%E5%89%AA%E8%B4%B4%E6%9D%BF%E6%95%B0%E6%8D%AE%E8%BD%AC%E6%8D%A2%E4%B8%BA%E7%BA%AF%E6%96%87%E6%9C%AC)
-    - [将剪贴板内容中的 Tab 转换为空格](#%E5%B0%86%E5%89%AA%E8%B4%B4%E6%9D%BF%E5%86%85%E5%AE%B9%E4%B8%AD%E7%9A%84-tab-%E8%BD%AC%E6%8D%A2%E4%B8%BA%E7%A9%BA%E6%A0%BC)
-    - [复制剪贴板的数据](#%E5%A4%8D%E5%88%B6%E5%89%AA%E8%B4%B4%E6%9D%BF%E7%9A%84%E6%95%B0%E6%8D%AE)
-    - [删除剪贴板重复内容以及排序](#%E5%88%A0%E9%99%A4%E5%89%AA%E8%B4%B4%E6%9D%BF%E9%87%8D%E5%A4%8D%E5%86%85%E5%AE%B9%E4%BB%A5%E5%8F%8A%E6%8E%92%E5%BA%8F)
   - [文件库](#%E6%96%87%E4%BB%B6%E5%BA%93)
-    - [重启自动解锁文件库](#%E9%87%8D%E5%90%AF%E8%87%AA%E5%8A%A8%E8%A7%A3%E9%94%81%E6%96%87%E4%BB%B6%E5%BA%93)
-    - [文件库服务](#%E6%96%87%E4%BB%B6%E5%BA%93%E6%9C%8D%E5%8A%A1)
   - [信息/报告](#%E4%BF%A1%E6%81%AF%E6%8A%A5%E5%91%8A)
-    - [产生高级系统和性能报告](#%E4%BA%A7%E7%94%9F%E9%AB%98%E7%BA%A7%E7%B3%BB%E7%BB%9F%E5%92%8C%E6%80%A7%E8%83%BD%E6%8A%A5%E5%91%8A)
   - [安装系统](#%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F)
-    - [创建安装启动器](#%E5%88%9B%E5%BB%BA%E5%AE%89%E8%A3%85%E5%90%AF%E5%8A%A8%E5%99%A8)
   - [内核扩展](#%E5%86%85%E6%A0%B8%E6%89%A9%E5%B1%95)
-    - [展示加载的内核扩展](#%E5%B1%95%E7%A4%BA%E5%8A%A0%E8%BD%BD%E7%9A%84%E5%86%85%E6%A0%B8%E6%89%A9%E5%B1%95)
-    - [加载内核扩展](#%E5%8A%A0%E8%BD%BD%E5%86%85%E6%A0%B8%E6%89%A9%E5%B1%95)
-    - [卸载内核扩展](#%E5%8D%B8%E8%BD%BD%E5%86%85%E6%A0%B8%E6%89%A9%E5%B1%95)
   - [自启动服务](#%E8%87%AA%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1)
   - [自启动服务](#%E8%87%AA%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1-1)
-    - [重建自启动服务数据库](#%E9%87%8D%E5%BB%BA%E8%87%AA%E5%90%AF%E5%8A%A8%E6%9C%8D%E5%8A%A1%E6%95%B0%E6%8D%AE%E5%BA%93)
   - [登录窗口](#%E7%99%BB%E5%BD%95%E7%AA%97%E5%8F%A3)
-    - [设置登录窗口文本](#%E8%AE%BE%E7%BD%AE%E7%99%BB%E5%BD%95%E7%AA%97%E5%8F%A3%E6%96%87%E6%9C%AC)
   - [内存管理](#%E5%86%85%E5%AD%98%E7%AE%A1%E7%90%86)
-    - [清除内存缓存](#%E6%B8%85%E9%99%A4%E5%86%85%E5%AD%98%E7%BC%93%E5%AD%98)
-    - [显示内存统计](#%E6%98%BE%E7%A4%BA%E5%86%85%E5%AD%98%E7%BB%9F%E8%AE%A1)
   - [通知中心](#%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83)
-    - [通知中心服务](#%E9%80%9A%E7%9F%A5%E4%B8%AD%E5%BF%83%E6%9C%8D%E5%8A%A1)
   - [快速浏览](#%E5%BF%AB%E9%80%9F%E6%B5%8F%E8%A7%88)
-    - [快速浏览文件](#%E5%BF%AB%E9%80%9F%E6%B5%8F%E8%A7%88%E6%96%87%E4%BB%B6)
   - [远程苹果事件](#%E8%BF%9C%E7%A8%8B%E8%8B%B9%E6%9E%9C%E4%BA%8B%E4%BB%B6)
   - [Root 用户](#root-%E7%94%A8%E6%88%B7)
   - [安全模式启动](#%E5%AE%89%E5%85%A8%E6%A8%A1%E5%BC%8F%E5%90%AF%E5%8A%A8)
   - [截图](#%E6%88%AA%E5%9B%BE)
-    - [延迟截图](#%E5%BB%B6%E8%BF%9F%E6%88%AA%E5%9B%BE)
-    - [保存截图到给定位置](#%E4%BF%9D%E5%AD%98%E6%88%AA%E5%9B%BE%E5%88%B0%E7%BB%99%E5%AE%9A%E4%BD%8D%E7%BD%AE)
-    - [设置截图文件格式](#%E8%AE%BE%E7%BD%AE%E6%88%AA%E5%9B%BE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F)
-    - [禁止截图阴影](#%E7%A6%81%E6%AD%A2%E6%88%AA%E5%9B%BE%E9%98%B4%E5%BD%B1)
-    - [设置截图的默认文件名](#%E8%AE%BE%E7%BD%AE%E6%88%AA%E5%9B%BE%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%87%E4%BB%B6%E5%90%8D)
   - [软件安装](#%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85)
-    - [安装 PKG](#%E5%AE%89%E8%A3%85-pkg)
   - [软件更新](#%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0)
-    - [更新所有可以更新的软件](#%E6%9B%B4%E6%96%B0%E6%89%80%E6%9C%89%E5%8F%AF%E4%BB%A5%E6%9B%B4%E6%96%B0%E7%9A%84%E8%BD%AF%E4%BB%B6)
-    - [设置软件更新检查的时间间隔](#%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%A3%80%E6%9F%A5%E7%9A%84%E6%97%B6%E9%97%B4%E9%97%B4%E9%9A%94)
-    - [显示所有可以更新的软件](#%E6%98%BE%E7%A4%BA%E6%89%80%E6%9C%89%E5%8F%AF%E4%BB%A5%E6%9B%B4%E6%96%B0%E7%9A%84%E8%BD%AF%E4%BB%B6)
-    - [设置软件更新服务器](#%E8%AE%BE%E7%BD%AE%E8%BD%AF%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%9C%8D%E5%8A%A1%E5%99%A8)
   - [软件版本](#%E8%BD%AF%E4%BB%B6%E7%89%88%E6%9C%AC)
-    - [显示系统的版本号](#%E6%98%BE%E7%A4%BA%E7%B3%BB%E7%BB%9F%E7%9A%84%E7%89%88%E6%9C%AC%E5%8F%B7)
   - [聚焦](#%E8%81%9A%E7%84%A6)
-    - [聚焦索引](#%E8%81%9A%E7%84%A6%E7%B4%A2%E5%BC%95)
-    - [擦除聚焦索引并重建](#%E6%93%A6%E9%99%A4%E8%81%9A%E7%84%A6%E7%B4%A2%E5%BC%95%E5%B9%B6%E9%87%8D%E5%BB%BA)
-    - [通过聚焦搜索](#%E9%80%9A%E8%BF%87%E8%81%9A%E7%84%A6%E6%90%9C%E7%B4%A2)
-    - [显示聚焦索引元数据](#%E6%98%BE%E7%A4%BA%E8%81%9A%E7%84%A6%E7%B4%A2%E5%BC%95%E5%85%83%E6%95%B0%E6%8D%AE)
   - [系统完整性保护](#%E7%B3%BB%E7%BB%9F%E5%AE%8C%E6%95%B4%E6%80%A7%E4%BF%9D%E6%8A%A4)
-    - [禁止系统完整性保护](#%E7%A6%81%E6%AD%A2%E7%B3%BB%E7%BB%9F%E5%AE%8C%E6%95%B4%E6%80%A7%E4%BF%9D%E6%8A%A4)
-    - [开启系统完整性保护](#%E5%BC%80%E5%90%AF%E7%B3%BB%E7%BB%9F%E5%AE%8C%E6%95%B4%E6%80%A7%E4%BF%9D%E6%8A%A4)
   - [时间和日期](#%E6%97%B6%E9%97%B4%E5%92%8C%E6%97%A5%E6%9C%9F)
-    - [列出所有时区](#%E5%88%97%E5%87%BA%E6%89%80%E6%9C%89%E6%97%B6%E5%8C%BA)
-    - [设置时区](#%E8%AE%BE%E7%BD%AE%E6%97%B6%E5%8C%BA)
-    - [网络时间设置时钟](#%E7%BD%91%E7%BB%9C%E6%97%B6%E9%97%B4%E8%AE%BE%E7%BD%AE%E6%97%B6%E9%92%9F)
 - [终端](#%E7%BB%88%E7%AB%AF-1)
-  - [Ring Terminal Bell](#ring-terminal-bell)
   - [替代终端](#%E6%9B%BF%E4%BB%A3%E7%BB%88%E7%AB%AF)
   - [Shells](#shells)
-    - [Bash](#bash)
-    - [fish](#fish)
-    - [Zsh](#zsh)
   - [终端字体](#%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93)
 - [词汇表](#%E8%AF%8D%E6%B1%87%E8%A1%A8)
   - [Mac OS X、OS X 以及 macOS 的版本信息](#mac-os-xos-x-%E4%BB%A5%E5%8F%8A-macos-%E7%9A%84%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF)
@@ -486,12 +264,9 @@ defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
 
 ```applescript
 (*
-Speed up Mail.app by vacuuming the Envelope Index
-Code from: http://web.archive.org/web/20071008123746/http://www.hawkwings.net/2007/03/03/scripts-to-automate-the-mailapp-envelope-speed-trick/
-Originally by "pmbuko" with modifications by Romulo
-Updated by Brett Terpstra 2012
-Updated by Mathias Törnblom 2015 to support V3 in El Capitan and still keep backwards compatibility
-Updated by Andrei Miclaus 2017 to support V4 in Sierra
+加快邮件索引。
+代码来源: http://web.archive.org/web/20071008123746/http://www.hawkwings.net/2007/03/03/scripts-to-automate-the-mailapp-envelope-speed-trick/
+最初由 pmbuko 改编，Romulo 修改。Brett Terpstra 在 2012 年更新，Mathias Törnblom 在 2013 更新到 V3 支持 El Capitan。Andrei Miclaus 在 2017 年更新到 V4,支持 Sierra。
 *)
 
 tell application "Mail" to quit
@@ -585,7 +360,7 @@ defaults write com.apple.Terminal FocusFollowsMouse -string NO
 
 ### 文本编辑
 
-#### 将文本编辑设置为纯文本的默认打开方式 Use Plain Text Mode as Default
+#### 将文本编辑设置为纯文本的默认打开方式
 
 ```bash
 defaults write com.apple.TextEdit RichText -int 0
@@ -680,7 +455,7 @@ sudo defaults write /Library/Preferences/com.apple.TimeMachine RequiresACPower -
 sudo tmutil verifychecksums /path/to/backup
 ```
 
-## 开发这
+## 开发者
 
 ### Vim
 
@@ -925,7 +700,7 @@ sudo fs_usage
 
 ### APFS
 
-从 High Sierra 开启，没有中央程序，并且使用不一致，因为大多数功能都被卷入到`tmutil`。
+从 High Sierra 开启，没有中央程序，并且使用不一致，因为大多数功能都被卷入到 `tmutil`。
 
 #### 将卷从 HFS+ 转换为 APFS
 
@@ -1806,7 +1581,7 @@ defaults read /Library/Preferences/SystemConfiguration/com.apple.airport.prefere
 
 #### 显示 Wi-Fi 网络密码
 
-Exchange SSID with the SSID of the access point you wish to query the password from.
+如果你希望使用 SSID 查询密码。
 
 ```bash
 security find-generic-password -D "AirPort network password" -a "SSID" -gw
@@ -1822,7 +1597,7 @@ networksetup -setairportpower en0 on
 
 - [Fink](http://www.finkproject.org) - Unix 开源软件的全部 Darwin 世界，有点过时。
 - [Homebrew](https://brew.sh) - OS X 缺少的包管理器，最流行的选择，我使用这个工具。
-- [MacPorts](https://www.macports.org) - 基于 X11 、Aqua 的开源软件，编译、安装和升级命令行。 非常干净的工具，原作者使用它。
+- [MacPorts](https://www.macports.org) - 基于 X11 、Aqua 的开源软件，编译、安装和升级软件包命令行工具。 非常干净的工具，原作者使用它。
 
 ## 打印
 
@@ -2445,7 +2220,7 @@ sudo systemsetup setusingnetworktime off
 
 ## 终端
 
-#### Ring Terminal Bell
+#### 终端响铃
 
 开启终端响铃，并在其上显示徽标数。
 
