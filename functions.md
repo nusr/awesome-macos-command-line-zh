@@ -13,7 +13,6 @@
     - [将当前访达文件目录设置为分栏视图](#%E5%B0%86%E5%BD%93%E5%89%8D%E8%AE%BF%E8%BE%BE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%88%86%E6%A0%8F%E8%A7%86%E5%9B%BE)
     - [将当前访达文件目录设置为图标视图](#%E5%B0%86%E5%BD%93%E5%89%8D%E8%AE%BF%E8%BE%BE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%9B%BE%E6%A0%87%E8%A7%86%E5%9B%BE)
     - [将当前访达文件目录设置为列表视图](#%E5%B0%86%E5%BD%93%E5%89%8D%E8%AE%BF%E8%BE%BE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE%E4%B8%BA%E5%88%97%E8%A1%A8%E8%A7%86%E5%9B%BE)
-  - [License](#license)
 
 ## 开发者
 
@@ -149,7 +148,3 @@ function list_view {
     -e 'end if' -e 'end tell';\
 }
 ```
-
-## License
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>

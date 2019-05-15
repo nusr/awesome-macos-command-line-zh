@@ -10,13 +10,13 @@
 
 翻译不妥的地方，欢迎提 issue 或者 pull request 。
 
+喜欢点 **star** ，关注点 **watch**，贡献点 **fork** 。
+
 为了获得更好的阅读效果，可以在线预览。[在线预览地址](https://nusr.github.io/post/awesome-macos-command-line-zh/entry/)
 
 > 精心为 OS X 挑选的 shell 命令和工具。
 >
 > _“你无需知晓一切。仅仅在你需要的时候，找到它就行了。” (John Brunner)_
-
-更多好用的终端工具，请参阅原作者的姐妹项目 [Awesome Command Line Apps](https://github.com/herrbischoff/awesome-command-line-apps)。
 
 中文 | [English](https://github.com/herrbischoff/awesome-macos-command-line)
 
@@ -119,7 +119,6 @@
   - [终端字体](#%E7%BB%88%E7%AB%AF%E5%AD%97%E4%BD%93)
 - [词汇表](#%E8%AF%8D%E6%B1%87%E8%A1%A8)
   - [Mac OS X、OS X 以及 macOS 的版本信息](#mac-os-xos-x-%E4%BB%A5%E5%8F%8A-macos-%E7%9A%84%E7%89%88%E6%9C%AC%E4%BF%A1%E6%81%AF)
-- [License](#license)
 
 ## 外形
 
@@ -1336,6 +1335,16 @@ defaults write com.apple.dock ResetLaunchPad -bool true && \
 killall Dock
 ```
 
+#### 删除启动台图标
+
+长按删除图标以及重设启动台布局后，仍然无法删除的图标，使用下面的命令删除。
+
+**Gitter** 是图标名称，大小写敏感。
+
+```bash
+sqlite3 $(find /private/var/folders \( -name com.apple.dock.launchpad -a -user $USER \) 2> /dev/null)/db/db "DELETE FROM apps WHERE title='Gitter';" && killall Dock
+```
+
 ## 媒体
 
 ### 音频
@@ -2319,7 +2328,3 @@ chsh -s $(brew --prefix)/bin/zsh
 | macOS 10.12                | Sierra             | September 20, 2016 | 10.12.6 (16G29) (July 19, 2017)       |
 | macOS 10.13                | High Sierra        | September 25, 2017 | 10.13.6 (17G65) (July 9, 2018)        |
 | macOS 10.14                | Mojave             | September 24, 2018 | 10.14 (18A391) (September 24, 2018)   |
-
-## License
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
